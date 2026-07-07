@@ -187,29 +187,40 @@
        </dl>
        <!-- Forms -->
         <form action="submit.php" method="post">
+            <!-- Text Input Field -->
             <div>
-                <label for="username">Enter your Username</label> <input type="text" id="username" name="username" placeholder="enter your username">
+                <label for="username">Enter your Username</label>
+                <input type="text" id="username" name="username" placeholder="enter your username">
             </div>
+            <!-- Gender Selection (Radio Buttons) -->
             <div>
                 <input type="radio" id="male" name="gender" value="male"> 
                 <label for="male">Male</label> 
                 <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
             </div>
+            <!-- Subscribe Option (Checkbox) -->
             <div>
-                <input type="checkbox" id="subscribe" value="yes">
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
                 <label for="subscribe">Subscribe</label>
             </div>
+            <!-- Comment Box (Textarea) -->
             <div>
-                <label for="">Enter your Comment</label>
+                <label for="comment">Enter your comment</label>
                 <br>
                 <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
             </div>
+            <!-- Fruit Selection (Dropdown) -->
             <div>
-                <select name="Fruits">
+                <label for="fruits">Select a fruit</label>
+                <select id="fruits" name="fruits">
                 <option value="apple">Apple</option>
                 <option value="mango">Mango</option>
                 <option value="cherry">Cherry</option>
                 </select>
+            </div>
+            <!-- Submit Button -->
+            <div>
+                <input type="submit" value="Submit">
             </div>
         </form>
     </body>
