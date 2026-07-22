@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Audio and Media</title>
+</head>
+<body>
+    <!-- Video -->
+    <video src="246148_medium.mp4" height="250" controls></video>
+    <h1>Attributes for video Tag</h1>
+    <!-- <video src="" controls></video> -->
+    <!-- <video src="" autoplay></video> -->
+    <!-- <video src="" loop></video>  -->
+    <!-- <video src="" muted></video> -->
+    <!-- <video src="" poster></video> -->
+    <!-- <video src="" width=""></video> -->
+    <!-- <video src="" height=""></video> -->
+    <!-- Audio -->
+    <audio src="oliviaaydin-birds-singing-audio-tune-165801.mp3" controls></audio>
+    <h1>Attributes for audio Tag</h1>
+    <!-- <audio src="" controls></audio> -->
+    <!-- <audio src="" autoplay></audio> -->
+    <!-- <audio src="" loop></audio>  -->
+    <!-- <audio src="" muted></audio> -->
+    <!-- <audio src="" preload></audio> -->
+    The "preload" attribute can have the following values:
+    <h2>none</h2>
+    This is the default value. It indicates that the browser should not preload the audio file at all. The audio file will only start downloading when the user initiates playback.
+    <h2>metadata</h2>
+    This value tells the browser to preload only the metadata of the audio file, such as its duration and basic information about the audio. This can be useful if you want to display the audio duration to the user without fully loading the audio data.
+    <h2>auto</h2>
+    This value instructs the browser to preload the entire audio file as much as possible without delaying the loading of other important page content. The browser will try to load the audio file in the background so that it's ready to play when the user decides to start it.
+    <!-- SVG Scalable Vector Graphics -->
+    <svg height="100" width="100">
+        <circle cx="50" cy="50" r="40" stoke="black" stroke-width="3" fill="red" />
+    </svg>
+    <!-- Image Tag Example -->
+    <img src="image.svg" alt="My SVG Image">
+    <!-- IFrames -->
+     <iframe src="https://www.codewithharry.com/tutorial/html-iframes" width="322" height="444"></iframe>
+    <!-- Embedding a Youtube Video -->
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
